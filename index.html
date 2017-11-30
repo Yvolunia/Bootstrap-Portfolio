@@ -7,27 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Bootstrap Index Page</title>
-
-  <!-- Bootstrap CDN -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-
-  <!--Style -->
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/style2.css">
 
 </head>
 
-<!-- Body Wrapper -->
-
-<div class="wrapper">
-
 <body>
 
-  <div class="container">
+  <div class="row">
+  <div class="col-sm-8">
 
-  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Yvonne Reichenbach</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -35,32 +26,31 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="portfoilio.html">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
 
- <!-- About Me Box Content -->
-        <div id="about">
-          About Me
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>About Me</h1>
         </div>
-
-        <hr width="600" type="2">
-
-       <div id="photo"> 
-          <img width=200 height=250 src="./Images/022013-Yvonne0001.JPG" align=left>
-      </div><!-- end #photo -->
-
-      <div class="text">
-
-      <p>In the past 15 years, I have had the opportunity to experience every side of the equation in software development. I have been the frustrated user just learning. I have been the functional business leader working to develop key enhancements. I have worked closely with IT, and I understand development cycles and the risks. Most importantly, I didn’t just implement projects and then take on a new role. I continued to work with the functional teams and got direct feedback on our solutions. I am very conscious of the customer experience. Transitions to new systems can be tough even in the best circumstances, so I work pro-actively to provide the best communication and training. I really enjoy driving quality process improvement, and I would love to be a part of an organization that is helping improve the world.</p>
+        <div class="row">
+          <div class="col-md-3">
+            <img  src="./Images/022013-Yvonne0001.JPG" alt="Placeholder" class="img-thumbnail">
+          </div>
+          <div class="col-md-9">
+             <div class="text">
+               <p>In the past 15 years, I have had the opportunity to experience every side of the equation in software development. I have been the frustrated user just learning. I have been the functional business leader working to develop key enhancements. I have worked closely with IT, and I understand development cycles and the risks. Most importantly, I didn’t just implement projects and then take on a new role. I continued to work with the functional teams and got direct feedback on our solutions. I am very conscious of the customer experience. Transitions to new systems can be tough even in the best circumstances, so I work pro-actively to provide the best communication and training. I really enjoy driving quality process improvement, and I would love to be a part of an organization that is helping improve the world.</p>
 
       <h3>Hobbies</h3>
 
@@ -72,41 +62,41 @@
           <li>Thinking about tennis and biking</li>
           <li>Occassionally, playing tennis and biking</li>
         </ul>
-
-      </div><!-- end text -->
-
-        </div><!--end .portfolio_box -->
-
-   <div class="connect_box">
+            
+</div>
+          </div>
+        </div>
+      </div>
 
       <!-- Connect Box Content -->
-        <section id="connect">
-          Connect with Me
-        </section>
-         <hr width="200" type="2">
-      
 
-       <div class="favicons">
+  <div class="col-sm-4">
 
-          <a target="blank" href="https://github.com/Yvolunia"><img id="git" width=50 height=50 src="./Images/if_icon-social-github_211904.png"/></a>
+  <div class="card bg-light mb-3" style="max-width: 20rem;">
+    <div class="card-header">Connect with Me</div>
+    <div class="card-body">
+      <a target="blank" href="https://github.com/Yvolunia"><img id="git" width=50 height=50 src="./Images/if_icon-social-github_211904.png"/></a>
 
           <a target="_blank" href="https://www.linkedin.com/in/yvonne-reichenbach-cpsm-7987783/"><img id="link" width=50 height=50 src="./Images/if_linkedin_square_color_107091.png"/></a>
 
           <a target="blank" href="https://stackoverflow.com/users/8743327/y-reichenbach?tab=profile"><img id="stack" width=50 height=50 src="./Images/if_StackOverflow_2613280.png"/></a>
-      </div>
 
-     </div><!-- end .connect_box -->
+        </div>
+      </div>
+  </div>
+</div>
+        
      
  </div><!-- end .box_wrapper -->
 
   <!-- Footer -->
 
-    <footer>
- 	 
- 	  <div id="copy"> © Copyright 2017 Yvonne Reichenbach
- 	  </div>
+ <div class="col-sm-8">
 
-     </footer>
+        <p>© Copyright 2017 Yvonne Reichenbach</p>
+      </div>
+    </div>
+
 
 </body>
 
