@@ -37,6 +37,7 @@ h2 {
 	float: left;
 }
 
+
 h5 {
 	color: #777777;
 	width: 50%;
@@ -52,7 +53,7 @@ h5 {
 
 /**Main Content Styles**/
 
-.portfolio_box {
+.portfolio {
 	margin-top: 50px;
 	background: #ffffff;
 	width: 650px;
@@ -63,16 +64,73 @@ h5 {
 	position: relative;
 }
 
+.contact_form {
+	margin-top: 50px;
+	width: 640px;
+	margin-left: 25px;
+	background: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	float: left;
+	position: relative;
+}
+
 #about {
 	color: #4aaaa5;
 	font-size: 28px;
-	margin-left: 25px;
+	margin-left: 20px;
 	padding: 20px;
     margin-top: 20px;
     margin-left: 20px;
 	font-weight: bold;
 	text-align: left;
 }
+
+#namefield {
+	width: 550px
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	text-align: left;
+	background: url('image/transparent_img.png') repeat top left;
+}
+
+#efield {
+	width: 550px
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	text-align: left
+	background: url('image/transparent_img.png') repeat top left;
+
+}
+
+#mfield {
+	padding: 100px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	text-align:left;
+	background: url('image/transparent_img.png') repeat top left;
+
+}
+
+#Submit {
+	margin-left: 20px;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 33%;
+	height: 50px;
+	line-height: 55px;
+	text-align: center;
+}
+
+
 
 #photo
 {
@@ -84,7 +142,7 @@ h5 {
 }
 
 .text {
-	padding: 35px;
+	padding: 20px;
 }
 
 h3 {
